@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://hey:hey123123@cluster0.zixai.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://hey:hey123123@cluster0.zixai.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }
