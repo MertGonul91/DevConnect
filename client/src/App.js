@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Landing from './components/layout/Landing';
 import Navbar from './components/layout/Navbar';
+import './App.css';
 
 const App = () => (
-  <>
-    <Navbar />
-    <Landing />
-  </>
+  <Router>
+    <>
+      <Navbar />
+      <Route exact path='/' component={Landing} />
+    </>
+  </Router>
 );
 
 export default App;
