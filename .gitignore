@@ -1,2 +1,6 @@
 node_modules/
+<<<<<<< HEAD
 /config/default.json
+=======
+default.json
+>>>>>>> 74e4654d6bf2a7d60d9262798af2652ebd4862bd
